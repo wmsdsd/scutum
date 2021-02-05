@@ -1,0 +1,42 @@
+@import "../common/md_colors";
+@import "../common/variables_mixins";
+@import "../common/common";
+
+@import "../common/uikit_custom";
+
+@import "../components/colors";
+@import "../components/cards";
+@import "../components/forms";
+@import "../components/buttons";
+@import "../components/icons";
+
+@import "../components/icheck";
+
+.sc-login-page {
+	body {
+		overflow: auto;
+		padding: 24px;
+		background: material-color('grey', '400');
+	}
+	&-wrapper {
+		height: calc(100vh - 48px);
+		@include respond-below(medium) {
+			align-items: flex-start;
+		}
+	}
+	&-inner {
+		padding: 16px;
+		@include respond-below(medium) {
+			padding: 8px 0;
+		}
+	}
+	&-logo {
+		padding: 24px;
+		margin-bottom: 16px;
+		text-align: center;
+		@include respond-below(medium) {
+			padding: 12px 24px;
+			margin-bottom: 8px;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"plugins": [
+		"@babel/plugin-syntax-dynamic-import",
+		"@babel/plugin-transform-spread"
+	],
+	"ignore": [
+		"node_modules",
+		"assets/js/vendor"
+	]
+}

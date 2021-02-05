@@ -1,0 +1,5 @@
+assets/js
+node_modules
+.nuxt
+scutum-spa
+scutum-ssr
